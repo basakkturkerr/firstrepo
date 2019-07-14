@@ -16,7 +16,9 @@ namespace ConsoleApp2
             int sayi2 = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("3. sayiyi giriniz: ");
             int sayi3 = Convert.ToInt16(Console.ReadLine());
-            Console.WriteLine((sayi1+sayi2) * sayi3);
+            Console.WriteLine("4. sayiyi giriniz: ");
+            int sayi4 = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine((sayi1+sayi2) * (sayi3 + sayi4));
             Console.ReadLine();
         }
         
